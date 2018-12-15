@@ -1,7 +1,7 @@
-﻿Module Module1
+﻿Module RenderCalender
 
     Sub Main()
-        Dim firstDayOfMonth As Date = New Date(2018, 4, 1)
+        Dim firstDayOfMonth As MyDate = New MyDate(2018, 4, 1)
         RenderCalender(firstDayOfMonth.DayOfWeek, Date.DaysInMonth(firstDayOfMonth.Year, firstDayOfMonth.Month))
     End Sub
 
