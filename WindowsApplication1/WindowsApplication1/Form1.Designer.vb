@@ -43,6 +43,7 @@ Partial Class Form1
         '
         'TextBox
         '
+        Me.TextBox.BackColor = System.Drawing.Color.Beige
         Me.TextBox.Font = New System.Drawing.Font("MS UI Gothic", 40.0!)
         Me.TextBox.ForeColor = System.Drawing.Color.Black
         Me.TextBox.Location = New System.Drawing.Point(7, 8)
@@ -53,12 +54,11 @@ Partial Class Form1
         Me.TextBox.TabIndex = 0
         Me.TextBox.Text = "0"
         Me.TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
-        Me.TextBox.UseWaitCursor = True
         '
         'Button7
         '
         Me.Button7.BackColor = System.Drawing.Color.White
-        Me.Button7.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Button7.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.Button7.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button7.Location = New System.Drawing.Point(7, 74)
         Me.Button7.Name = "Button7"
@@ -70,7 +70,7 @@ Partial Class Form1
         'Button8
         '
         Me.Button8.BackColor = System.Drawing.Color.White
-        Me.Button8.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Button8.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.Button8.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button8.Location = New System.Drawing.Point(83, 74)
         Me.Button8.Name = "Button8"
@@ -82,7 +82,7 @@ Partial Class Form1
         'Button9
         '
         Me.Button9.BackColor = System.Drawing.Color.White
-        Me.Button9.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Button9.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.Button9.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button9.Location = New System.Drawing.Point(159, 74)
         Me.Button9.Name = "Button9"
@@ -94,7 +94,7 @@ Partial Class Form1
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.White
-        Me.Button4.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Button4.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.Button4.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button4.Location = New System.Drawing.Point(7, 150)
         Me.Button4.Name = "Button4"
@@ -106,7 +106,7 @@ Partial Class Form1
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.Color.White
-        Me.Button5.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Button5.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.Button5.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button5.Location = New System.Drawing.Point(83, 150)
         Me.Button5.Name = "Button5"
@@ -118,7 +118,7 @@ Partial Class Form1
         'Button6
         '
         Me.Button6.BackColor = System.Drawing.Color.White
-        Me.Button6.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Button6.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.Button6.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button6.Location = New System.Drawing.Point(159, 150)
         Me.Button6.Name = "Button6"
@@ -130,7 +130,7 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.White
-        Me.Button1.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Button1.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.Button1.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button1.Location = New System.Drawing.Point(7, 226)
         Me.Button1.Name = "Button1"
@@ -142,7 +142,7 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Button2.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.Button2.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button2.Location = New System.Drawing.Point(83, 226)
         Me.Button2.Name = "Button2"
@@ -154,7 +154,7 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.White
-        Me.Button3.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Button3.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.Button3.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button3.Location = New System.Drawing.Point(159, 226)
         Me.Button3.Name = "Button3"
@@ -166,7 +166,7 @@ Partial Class Form1
         'Button0
         '
         Me.Button0.BackColor = System.Drawing.Color.White
-        Me.Button0.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.Button0.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.Button0.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button0.Location = New System.Drawing.Point(7, 302)
         Me.Button0.Name = "Button0"
@@ -178,7 +178,7 @@ Partial Class Form1
         'ButtonClear
         '
         Me.ButtonClear.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.ButtonClear.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.ButtonClear.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.ButtonClear.ForeColor = System.Drawing.Color.White
         Me.ButtonClear.Location = New System.Drawing.Point(83, 302)
         Me.ButtonClear.Name = "ButtonClear"
@@ -190,7 +190,7 @@ Partial Class Form1
         'ButtonEqual
         '
         Me.ButtonEqual.BackColor = System.Drawing.Color.MediumAquamarine
-        Me.ButtonEqual.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.ButtonEqual.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.ButtonEqual.ForeColor = System.Drawing.Color.White
         Me.ButtonEqual.Location = New System.Drawing.Point(159, 302)
         Me.ButtonEqual.Name = "ButtonEqual"
@@ -202,7 +202,7 @@ Partial Class Form1
         'ButtonPlus
         '
         Me.ButtonPlus.BackColor = System.Drawing.Color.MediumAquamarine
-        Me.ButtonPlus.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.ButtonPlus.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.ButtonPlus.ForeColor = System.Drawing.Color.White
         Me.ButtonPlus.Location = New System.Drawing.Point(235, 302)
         Me.ButtonPlus.Name = "ButtonPlus"
@@ -214,7 +214,7 @@ Partial Class Form1
         'ButtonMinus
         '
         Me.ButtonMinus.BackColor = System.Drawing.Color.MediumAquamarine
-        Me.ButtonMinus.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.ButtonMinus.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.ButtonMinus.ForeColor = System.Drawing.Color.White
         Me.ButtonMinus.Location = New System.Drawing.Point(235, 226)
         Me.ButtonMinus.Name = "ButtonMinus"
@@ -226,7 +226,7 @@ Partial Class Form1
         'ButtonX
         '
         Me.ButtonX.BackColor = System.Drawing.Color.MediumAquamarine
-        Me.ButtonX.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.ButtonX.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.ButtonX.ForeColor = System.Drawing.Color.White
         Me.ButtonX.Location = New System.Drawing.Point(235, 150)
         Me.ButtonX.Name = "ButtonX"
@@ -238,7 +238,7 @@ Partial Class Form1
         'ButtonDivide
         '
         Me.ButtonDivide.BackColor = System.Drawing.Color.MediumAquamarine
-        Me.ButtonDivide.Font = New System.Drawing.Font("MS UI Gothic", 20.0!)
+        Me.ButtonDivide.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
         Me.ButtonDivide.ForeColor = System.Drawing.Color.White
         Me.ButtonDivide.Location = New System.Drawing.Point(235, 74)
         Me.ButtonDivide.Name = "ButtonDivide"

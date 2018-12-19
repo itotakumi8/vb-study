@@ -120,37 +120,15 @@
     '＋ボタンクリック処理
     Private Sub ButtonPlus_Click(sender As System.Object, e As System.EventArgs) Handles ButtonPlus.Click
         If beforeIn >= "0" And beforeIn <= "9" Then
-            If opt = "C" Then
-                'ボタンクリック前の入力数値をansに保管(整数に変換)
+            If opt = "" Then
+                ans = CInt(TextBox.Text)
+            ElseIf opt = "C" Then
                 ans = CInt(TextBox.Text)
             Else
-                'ansに保管されている＋ボタンクリック前の数値と加算
                 num = CInt(TextBox.Text)
                 ans = ans + num
-                TextBox.Text = ans '表示される数字
+                TextBox.Text = ans
             End If
-        Else
-            ' 前回クリックが数字以外の時
-            Select Case opt
-                Case "C"
-                    '前回がクリアボタン
-                    ans = CInt(TextBox.Text)
-                Case "="
-                    '前回がイコールボタン
-                    ans = ans + num
-                Case "+"
-                    '前回が+ボタン
-                    num = ans
-                Case "-"
-                    '前回が-ボタン
-                    num = ans
-                Case "x"
-                    '前回がxボタン
-                    num = ans
-                Case "÷"
-                    '前回が÷ボタン
-                    num = ans
-            End Select
         End If
         beforeIn = "+"
         opt = "+"
@@ -158,30 +136,50 @@
     '-ボタンクリック処理
     Private Sub ButtonMinus_Click(sender As System.Object, e As System.EventArgs) Handles ButtonMinus.Click
         If beforeIn >= "0" And beforeIn <= "9" Then
-            If opt = "C" Then
+            If opt = "" Then
                 ans = CInt(TextBox.Text)
-            Else : num = CInt(TextBox.Text)
+            ElseIf opt = "C" Then
+                ans = CInt(TextBox.Text)
+            Else
+                num = CInt(TextBox.Text)
                 ans = ans - num
                 TextBox.Text = ans
             End If
-        Else
-            Select Case opt
-                Case "C"
-                    ans = CInt(TextBox.Text)
-                Case "="
-                    ans = ans - num
-                Case "+"
-                    num = ans
-                Case "-"
-                    num = ans
-                Case "x"
-                    num = ans
-                Case "÷"
-                    num = ans
-            End Select
         End If
         beforeIn = "-"
         opt = "-"
+    End Sub
+    'xボタンクリック処理
+    Private Sub ButtonX_Click(sender As System.Object, e As System.EventArgs) Handles ButtonX.Click
+        If beforeIn >= "0" And beforeIn <= "9" Then
+            If opt = "" Then
+                ans = CInt(TextBox.Text)
+            ElseIf opt = "C" Then
+                ans = CInt(TextBox.Text)
+            Else
+                num = CInt(TextBox.Text)
+                ans = ans * num
+                TextBox.Text = ans
+            End If
+        End If
+        beforeIn = "x"
+        opt = "x"
+    End Sub
+    '÷ボタンクリック処理
+    Private Sub ButtonDivide_Click(sender As System.Object, e As System.EventArgs) Handles ButtonDivide.Click
+        If beforeIn >= "0" And beforeIn <= "9" Then
+            If opt = "" Then
+                ans = CInt(TextBox.Text)
+            ElseIf opt = "C" Then
+                ans = CInt(TextBox.Text)
+            Else
+                num = CInt(TextBox.Text)
+                ans = ans / num
+                TextBox.Text = ans
+            End If
+        End If
+        beforeIn = "÷"
+        opt = "÷"
     End Sub
     '=ボタンクリック処理
     Private Sub ButtonEqual_Click(sender As System.Object, e As System.EventArgs) Handles ButtonEqual.Click
@@ -200,7 +198,8 @@
                 ans = ans / num
         End Select
         TextBox.Text = ans '答え(計算結果)
-        beforeIn = "C"
+        beforeIn = "="
+        opt = "="
     End Sub
     'クリアボタンクリック処理
     Private Sub ButtonClear_Click(sender As System.Object, e As System.EventArgs) Handles ButtonClear.Click
