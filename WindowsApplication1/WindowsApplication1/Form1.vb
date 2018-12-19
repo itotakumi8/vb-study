@@ -1,20 +1,19 @@
 ﻿Public Class Form1
 
-    Private ope As String = Nothing     '今回押されたボタンの数字以外の値を保存(+,-,x,÷,=,C)
+    Private opt As String = Nothing     '今回押されたボタンの数字以外の値を保存(+,-,x,÷,=,C)
     Private beforeIn As String = "C"    '今回押されたボタンの値を保存(1,2,3,4,5,6,7,8,9,0,+,-,x,÷,=,C)
-    Private ans As Long = 0             '演算結果を保存
+    Private ans As Long = 0             '答え(演算結果)を保存
     Private num As Long = 0             '今回入力された数値を保存する変数
 
     '1ボタンクリック処理
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
         If beforeIn >= "0" And beforeIn <= "9" Then
-            ' 直前に押されたのが数字ボタンのとき
-            ' かつ、8桁未満の数値が入力されているとき
+            ' 直前に押されたのが数字ボタンのとき、かつ9桁未満の数値が入力されているとき（&を付けて）直前の数字の桁数に加算
             If TextBox.Text.Length < 9 Then
                 TextBox.Text &= "1"
             End If
         Else
-            ' 直前に押されたのが数字以外のボタンのとき
+            ' 直前に押されたのが数字以外のボタンのとき、演算記号で区切られるため（&を付けず）1の位へリセット
             TextBox.Text = "1"
         End If
         beforeIn = "1"
@@ -121,31 +120,95 @@
     '＋ボタンクリック処理
     Private Sub ButtonPlus_Click(sender As System.Object, e As System.EventArgs) Handles ButtonPlus.Click
         If beforeIn >= "0" And beforeIn <= "9" Then
-            If ope = "C" Then
-                ' 最初の入力数値をansに保管
+            If opt = "C" Then
+                'ボタンクリック前の入力数値をansに保管(整数に変換)
                 ans = CInt(TextBox.Text)
             Else
-                ' ansに保管されている
-                ' ＋ボタンクリック前の数値と加算
+                'ansに保管されている＋ボタンクリック前の数値と加算
                 num = CInt(TextBox.Text)
                 ans = ans + num
-                TextBox.Text = ans
+                TextBox.Text = ans '表示される数字
             End If
         Else
             ' 前回クリックが数字以外の時
-            Select Case ope
+            Select Case opt
                 Case "C"
-                    ' 前回がクリアボタン
+                    '前回がクリアボタン
                     ans = CInt(TextBox.Text)
                 Case "="
-                    ' 前回がイコールボタン
+                    '前回がイコールボタン
                     ans = ans + num
                 Case "+"
+                    '前回が+ボタン
+                    num = ans
+                Case "-"
+                    '前回が-ボタン
+                    num = ans
+                Case "x"
+                    '前回がxボタン
+                    num = ans
+                Case "÷"
+                    '前回が÷ボタン
                     num = ans
             End Select
         End If
         beforeIn = "+"
-        ope = "+"
+        opt = "+"
+    End Sub
+    '-ボタンクリック処理
+    Private Sub ButtonMinus_Click(sender As System.Object, e As System.EventArgs) Handles ButtonMinus.Click
+        If beforeIn >= "0" And beforeIn <= "9" Then
+            If opt = "C" Then
+                ans = CInt(TextBox.Text)
+            Else : num = CInt(TextBox.Text)
+                ans = ans - num
+                TextBox.Text = ans
+            End If
+        Else
+            Select Case opt
+                Case "C"
+                    ans = CInt(TextBox.Text)
+                Case "="
+                    ans = ans - num
+                Case "+"
+                    num = ans
+                Case "-"
+                    num = ans
+                Case "x"
+                    num = ans
+                Case "÷"
+                    num = ans
+            End Select
+        End If
+        beforeIn = "-"
+        opt = "-"
+    End Sub
+    '=ボタンクリック処理
+    Private Sub ButtonEqual_Click(sender As System.Object, e As System.EventArgs) Handles ButtonEqual.Click
+        If beforeIn >= "1" And beforeIn <= "9" Then
+            num = CInt(TextBox.Text)
+        End If
+        ' 演算子を判定して処理を振分
+        Select Case opt
+            Case "+"
+                ans = ans + num
+            Case "-"
+                ans = ans - num
+            Case "x"
+                ans = ans * num
+            Case "÷"
+                ans = ans / num
+        End Select
+        TextBox.Text = ans '答え(計算結果)
+        beforeIn = "C"
+    End Sub
+    'クリアボタンクリック処理
+    Private Sub ButtonClear_Click(sender As System.Object, e As System.EventArgs) Handles ButtonClear.Click
+        ans = 0
+        num = 0
+        beforeIn = "C"
+        opt = "C"
+        TextBox.Text = "0"
     End Sub
 End Class
 

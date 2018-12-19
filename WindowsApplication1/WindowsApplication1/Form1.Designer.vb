@@ -48,6 +48,7 @@ Partial Class Form1
         Me.TextBox.Location = New System.Drawing.Point(7, 8)
         Me.TextBox.Multiline = True
         Me.TextBox.Name = "TextBox"
+        Me.TextBox.ReadOnly = True
         Me.TextBox.Size = New System.Drawing.Size(298, 61)
         Me.TextBox.TabIndex = 0
         Me.TextBox.Text = "0"
@@ -176,7 +177,7 @@ Partial Class Form1
         '
         'ButtonClear
         '
-        Me.ButtonClear.BackColor = System.Drawing.Color.MediumSeaGreen
+        Me.ButtonClear.BackColor = System.Drawing.Color.LightSeaGreen
         Me.ButtonClear.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.ButtonClear.ForeColor = System.Drawing.Color.White
         Me.ButtonClear.Location = New System.Drawing.Point(83, 302)
@@ -203,11 +204,11 @@ Partial Class Form1
         Me.ButtonPlus.BackColor = System.Drawing.Color.MediumAquamarine
         Me.ButtonPlus.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.ButtonPlus.ForeColor = System.Drawing.Color.White
-        Me.ButtonPlus.Location = New System.Drawing.Point(235, 74)
+        Me.ButtonPlus.Location = New System.Drawing.Point(235, 302)
         Me.ButtonPlus.Name = "ButtonPlus"
         Me.ButtonPlus.Size = New System.Drawing.Size(70, 70)
         Me.ButtonPlus.TabIndex = 13
-        Me.ButtonPlus.Text = "＋"
+        Me.ButtonPlus.Text = "+"
         Me.ButtonPlus.UseVisualStyleBackColor = False
         '
         'ButtonMinus
@@ -215,11 +216,11 @@ Partial Class Form1
         Me.ButtonMinus.BackColor = System.Drawing.Color.MediumAquamarine
         Me.ButtonMinus.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.ButtonMinus.ForeColor = System.Drawing.Color.White
-        Me.ButtonMinus.Location = New System.Drawing.Point(235, 150)
+        Me.ButtonMinus.Location = New System.Drawing.Point(235, 226)
         Me.ButtonMinus.Name = "ButtonMinus"
         Me.ButtonMinus.Size = New System.Drawing.Size(70, 70)
         Me.ButtonMinus.TabIndex = 14
-        Me.ButtonMinus.Text = "－"
+        Me.ButtonMinus.Text = "-"
         Me.ButtonMinus.UseVisualStyleBackColor = False
         '
         'ButtonX
@@ -227,19 +228,19 @@ Partial Class Form1
         Me.ButtonX.BackColor = System.Drawing.Color.MediumAquamarine
         Me.ButtonX.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
         Me.ButtonX.ForeColor = System.Drawing.Color.White
-        Me.ButtonX.Location = New System.Drawing.Point(235, 226)
+        Me.ButtonX.Location = New System.Drawing.Point(235, 150)
         Me.ButtonX.Name = "ButtonX"
         Me.ButtonX.Size = New System.Drawing.Size(70, 70)
         Me.ButtonX.TabIndex = 15
-        Me.ButtonX.Text = "×"
+        Me.ButtonX.Text = "x"
         Me.ButtonX.UseVisualStyleBackColor = False
         '
         'ButtonDivide
         '
         Me.ButtonDivide.BackColor = System.Drawing.Color.MediumAquamarine
-        Me.ButtonDivide.Font = New System.Drawing.Font("MS UI Gothic", 24.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(128, Byte))
+        Me.ButtonDivide.Font = New System.Drawing.Font("MS UI Gothic", 20.0!)
         Me.ButtonDivide.ForeColor = System.Drawing.Color.White
-        Me.ButtonDivide.Location = New System.Drawing.Point(235, 302)
+        Me.ButtonDivide.Location = New System.Drawing.Point(235, 74)
         Me.ButtonDivide.Name = "ButtonDivide"
         Me.ButtonDivide.Size = New System.Drawing.Size(70, 70)
         Me.ButtonDivide.TabIndex = 16
