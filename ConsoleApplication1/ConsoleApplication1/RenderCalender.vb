@@ -1,11 +1,11 @@
-﻿Module RenderCalender
+﻿Module Module1
 
     Sub Main()
-        Dim firstDayOfMonth As MyDate = New MyDate(2018, 4, 1)
+        Dim firstDayOfMonth As MyDate = New MyDate(2019, 1, 1)
         RenderCalender(firstDayOfMonth.DayOfWeek, Date.DaysInMonth(firstDayOfMonth.Year, firstDayOfMonth.Month))
     End Sub
 
-    Sub RenderCalender(firstDay As Integer, dayLength As Integer)
+    Public Sub RenderCalender(firstDay As Integer, dayLength As Integer)
 
         Console.WriteLine("日 月 火 水 木 金 土")
         For i = 1 To firstDay
@@ -23,5 +23,7 @@
             End If
         Next
         Console.WriteLine()
+
+        Console.ReadLine()
     End Sub
 End Module

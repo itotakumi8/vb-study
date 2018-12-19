@@ -35,6 +35,10 @@
         End Select
         Return -1
 
+        Select Case month
+            Case 1
+                Return yearInt = yearInt - 2
+        End Select
     End Function
 
 End Class
