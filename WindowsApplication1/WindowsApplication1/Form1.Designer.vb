@@ -39,6 +39,10 @@ Partial Class Form1
         Me.ButtonMinus = New System.Windows.Forms.Button()
         Me.ButtonX = New System.Windows.Forms.Button()
         Me.ButtonDivide = New System.Windows.Forms.Button()
+        Me.ButtonDouble = New System.Windows.Forms.Button()
+        Me.Button00 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox
@@ -58,11 +62,11 @@ Partial Class Form1
         'Button7
         '
         Me.Button7.BackColor = System.Drawing.Color.White
-        Me.Button7.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.Button7.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button7.Location = New System.Drawing.Point(7, 74)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(70, 70)
+        Me.Button7.Size = New System.Drawing.Size(70, 50)
         Me.Button7.TabIndex = 1
         Me.Button7.Text = "7"
         Me.Button7.UseVisualStyleBackColor = False
@@ -70,11 +74,11 @@ Partial Class Form1
         'Button8
         '
         Me.Button8.BackColor = System.Drawing.Color.White
-        Me.Button8.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.Button8.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button8.Location = New System.Drawing.Point(83, 74)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(70, 70)
+        Me.Button8.Size = New System.Drawing.Size(70, 50)
         Me.Button8.TabIndex = 2
         Me.Button8.Text = "8"
         Me.Button8.UseVisualStyleBackColor = False
@@ -82,11 +86,11 @@ Partial Class Form1
         'Button9
         '
         Me.Button9.BackColor = System.Drawing.Color.White
-        Me.Button9.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.Button9.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.MediumAquamarine
         Me.Button9.Location = New System.Drawing.Point(159, 74)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(70, 70)
+        Me.Button9.Size = New System.Drawing.Size(70, 50)
         Me.Button9.TabIndex = 3
         Me.Button9.Text = "9"
         Me.Button9.UseVisualStyleBackColor = False
@@ -94,11 +98,11 @@ Partial Class Form1
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.White
-        Me.Button4.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.Button4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.MediumAquamarine
-        Me.Button4.Location = New System.Drawing.Point(7, 150)
+        Me.Button4.Location = New System.Drawing.Point(7, 130)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(70, 70)
+        Me.Button4.Size = New System.Drawing.Size(70, 50)
         Me.Button4.TabIndex = 4
         Me.Button4.Text = "4"
         Me.Button4.UseVisualStyleBackColor = False
@@ -106,11 +110,11 @@ Partial Class Form1
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.Color.White
-        Me.Button5.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.Button5.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.MediumAquamarine
-        Me.Button5.Location = New System.Drawing.Point(83, 150)
+        Me.Button5.Location = New System.Drawing.Point(83, 130)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(70, 70)
+        Me.Button5.Size = New System.Drawing.Size(70, 50)
         Me.Button5.TabIndex = 5
         Me.Button5.Text = "5"
         Me.Button5.UseVisualStyleBackColor = False
@@ -118,11 +122,11 @@ Partial Class Form1
         'Button6
         '
         Me.Button6.BackColor = System.Drawing.Color.White
-        Me.Button6.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.Button6.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.MediumAquamarine
-        Me.Button6.Location = New System.Drawing.Point(159, 150)
+        Me.Button6.Location = New System.Drawing.Point(159, 130)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(70, 70)
+        Me.Button6.Size = New System.Drawing.Size(70, 50)
         Me.Button6.TabIndex = 6
         Me.Button6.Text = "6"
         Me.Button6.UseVisualStyleBackColor = False
@@ -130,11 +134,11 @@ Partial Class Form1
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.White
-        Me.Button1.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.Button1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.MediumAquamarine
-        Me.Button1.Location = New System.Drawing.Point(7, 226)
+        Me.Button1.Location = New System.Drawing.Point(7, 186)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(70, 70)
+        Me.Button1.Size = New System.Drawing.Size(70, 50)
         Me.Button1.TabIndex = 7
         Me.Button1.Text = "1"
         Me.Button1.UseVisualStyleBackColor = False
@@ -142,11 +146,11 @@ Partial Class Form1
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.Button2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.MediumAquamarine
-        Me.Button2.Location = New System.Drawing.Point(83, 226)
+        Me.Button2.Location = New System.Drawing.Point(83, 186)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(70, 70)
+        Me.Button2.Size = New System.Drawing.Size(70, 50)
         Me.Button2.TabIndex = 8
         Me.Button2.Text = "2"
         Me.Button2.UseVisualStyleBackColor = False
@@ -154,11 +158,11 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.White
-        Me.Button3.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.Button3.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.MediumAquamarine
-        Me.Button3.Location = New System.Drawing.Point(159, 226)
+        Me.Button3.Location = New System.Drawing.Point(159, 186)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(70, 70)
+        Me.Button3.Size = New System.Drawing.Size(70, 50)
         Me.Button3.TabIndex = 9
         Me.Button3.Text = "3"
         Me.Button3.UseVisualStyleBackColor = False
@@ -166,11 +170,11 @@ Partial Class Form1
         'Button0
         '
         Me.Button0.BackColor = System.Drawing.Color.White
-        Me.Button0.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.Button0.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button0.ForeColor = System.Drawing.Color.MediumAquamarine
-        Me.Button0.Location = New System.Drawing.Point(7, 302)
+        Me.Button0.Location = New System.Drawing.Point(7, 242)
         Me.Button0.Name = "Button0"
-        Me.Button0.Size = New System.Drawing.Size(70, 70)
+        Me.Button0.Size = New System.Drawing.Size(70, 50)
         Me.Button0.TabIndex = 10
         Me.Button0.Text = "0"
         Me.Button0.UseVisualStyleBackColor = False
@@ -178,11 +182,11 @@ Partial Class Form1
         'ButtonClear
         '
         Me.ButtonClear.BackColor = System.Drawing.Color.LightSeaGreen
-        Me.ButtonClear.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.ButtonClear.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonClear.ForeColor = System.Drawing.Color.White
-        Me.ButtonClear.Location = New System.Drawing.Point(83, 302)
+        Me.ButtonClear.Location = New System.Drawing.Point(7, 298)
         Me.ButtonClear.Name = "ButtonClear"
-        Me.ButtonClear.Size = New System.Drawing.Size(70, 70)
+        Me.ButtonClear.Size = New System.Drawing.Size(70, 50)
         Me.ButtonClear.TabIndex = 11
         Me.ButtonClear.Text = "C"
         Me.ButtonClear.UseVisualStyleBackColor = False
@@ -190,11 +194,11 @@ Partial Class Form1
         'ButtonEqual
         '
         Me.ButtonEqual.BackColor = System.Drawing.Color.MediumAquamarine
-        Me.ButtonEqual.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.ButtonEqual.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonEqual.ForeColor = System.Drawing.Color.White
-        Me.ButtonEqual.Location = New System.Drawing.Point(159, 302)
+        Me.ButtonEqual.Location = New System.Drawing.Point(235, 298)
         Me.ButtonEqual.Name = "ButtonEqual"
-        Me.ButtonEqual.Size = New System.Drawing.Size(70, 70)
+        Me.ButtonEqual.Size = New System.Drawing.Size(70, 50)
         Me.ButtonEqual.TabIndex = 12
         Me.ButtonEqual.Text = "="
         Me.ButtonEqual.UseVisualStyleBackColor = False
@@ -202,11 +206,11 @@ Partial Class Form1
         'ButtonPlus
         '
         Me.ButtonPlus.BackColor = System.Drawing.Color.MediumAquamarine
-        Me.ButtonPlus.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.ButtonPlus.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonPlus.ForeColor = System.Drawing.Color.White
-        Me.ButtonPlus.Location = New System.Drawing.Point(235, 302)
+        Me.ButtonPlus.Location = New System.Drawing.Point(235, 242)
         Me.ButtonPlus.Name = "ButtonPlus"
-        Me.ButtonPlus.Size = New System.Drawing.Size(70, 70)
+        Me.ButtonPlus.Size = New System.Drawing.Size(70, 50)
         Me.ButtonPlus.TabIndex = 13
         Me.ButtonPlus.Text = "+"
         Me.ButtonPlus.UseVisualStyleBackColor = False
@@ -214,11 +218,11 @@ Partial Class Form1
         'ButtonMinus
         '
         Me.ButtonMinus.BackColor = System.Drawing.Color.MediumAquamarine
-        Me.ButtonMinus.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.ButtonMinus.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonMinus.ForeColor = System.Drawing.Color.White
-        Me.ButtonMinus.Location = New System.Drawing.Point(235, 226)
+        Me.ButtonMinus.Location = New System.Drawing.Point(235, 186)
         Me.ButtonMinus.Name = "ButtonMinus"
-        Me.ButtonMinus.Size = New System.Drawing.Size(70, 70)
+        Me.ButtonMinus.Size = New System.Drawing.Size(70, 50)
         Me.ButtonMinus.TabIndex = 14
         Me.ButtonMinus.Text = "-"
         Me.ButtonMinus.UseVisualStyleBackColor = False
@@ -226,11 +230,11 @@ Partial Class Form1
         'ButtonX
         '
         Me.ButtonX.BackColor = System.Drawing.Color.MediumAquamarine
-        Me.ButtonX.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.ButtonX.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonX.ForeColor = System.Drawing.Color.White
-        Me.ButtonX.Location = New System.Drawing.Point(235, 150)
+        Me.ButtonX.Location = New System.Drawing.Point(235, 130)
         Me.ButtonX.Name = "ButtonX"
-        Me.ButtonX.Size = New System.Drawing.Size(70, 70)
+        Me.ButtonX.Size = New System.Drawing.Size(70, 50)
         Me.ButtonX.TabIndex = 15
         Me.ButtonX.Text = "x"
         Me.ButtonX.UseVisualStyleBackColor = False
@@ -238,14 +242,62 @@ Partial Class Form1
         'ButtonDivide
         '
         Me.ButtonDivide.BackColor = System.Drawing.Color.MediumAquamarine
-        Me.ButtonDivide.Font = New System.Drawing.Font("UD デジタル 教科書体 NP-B", 25.0!, System.Drawing.FontStyle.Bold)
+        Me.ButtonDivide.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ButtonDivide.ForeColor = System.Drawing.Color.White
         Me.ButtonDivide.Location = New System.Drawing.Point(235, 74)
         Me.ButtonDivide.Name = "ButtonDivide"
-        Me.ButtonDivide.Size = New System.Drawing.Size(70, 70)
+        Me.ButtonDivide.Size = New System.Drawing.Size(70, 50)
         Me.ButtonDivide.TabIndex = 16
         Me.ButtonDivide.Text = "÷"
         Me.ButtonDivide.UseVisualStyleBackColor = False
+        '
+        'ButtonDouble
+        '
+        Me.ButtonDouble.BackColor = System.Drawing.Color.White
+        Me.ButtonDouble.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ButtonDouble.ForeColor = System.Drawing.Color.MediumAquamarine
+        Me.ButtonDouble.Location = New System.Drawing.Point(159, 242)
+        Me.ButtonDouble.Name = "ButtonDouble"
+        Me.ButtonDouble.Size = New System.Drawing.Size(70, 50)
+        Me.ButtonDouble.TabIndex = 17
+        Me.ButtonDouble.Text = "."
+        Me.ButtonDouble.UseVisualStyleBackColor = False
+        '
+        'Button00
+        '
+        Me.Button00.BackColor = System.Drawing.Color.White
+        Me.Button00.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button00.ForeColor = System.Drawing.Color.MediumAquamarine
+        Me.Button00.Location = New System.Drawing.Point(83, 242)
+        Me.Button00.Name = "Button00"
+        Me.Button00.Size = New System.Drawing.Size(70, 50)
+        Me.Button00.TabIndex = 18
+        Me.Button00.Text = "00"
+        Me.Button00.UseVisualStyleBackColor = False
+        '
+        'Button12
+        '
+        Me.Button12.BackColor = System.Drawing.Color.LightSeaGreen
+        Me.Button12.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button12.ForeColor = System.Drawing.Color.White
+        Me.Button12.Location = New System.Drawing.Point(83, 298)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(70, 50)
+        Me.Button12.TabIndex = 19
+        Me.Button12.Text = "税込"
+        Me.Button12.UseVisualStyleBackColor = False
+        '
+        'Button10
+        '
+        Me.Button10.BackColor = System.Drawing.Color.LightSeaGreen
+        Me.Button10.Font = New System.Drawing.Font("Arial Rounded MT Bold", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.ForeColor = System.Drawing.Color.White
+        Me.Button10.Location = New System.Drawing.Point(159, 298)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(70, 50)
+        Me.Button10.TabIndex = 20
+        Me.Button10.Text = "%"
+        Me.Button10.UseVisualStyleBackColor = False
         '
         'Form1
         '
@@ -253,7 +305,11 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
         Me.BackColor = System.Drawing.Color.MediumAquamarine
-        Me.ClientSize = New System.Drawing.Size(312, 378)
+        Me.ClientSize = New System.Drawing.Size(312, 354)
+        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.Button12)
+        Me.Controls.Add(Me.Button00)
+        Me.Controls.Add(Me.ButtonDouble)
         Me.Controls.Add(Me.ButtonDivide)
         Me.Controls.Add(Me.ButtonX)
         Me.Controls.Add(Me.ButtonMinus)
@@ -295,5 +351,9 @@ Partial Class Form1
     Friend WithEvents ButtonMinus As System.Windows.Forms.Button
     Friend WithEvents ButtonX As System.Windows.Forms.Button
     Friend WithEvents ButtonDivide As System.Windows.Forms.Button
+    Friend WithEvents ButtonDouble As System.Windows.Forms.Button
+    Friend WithEvents Button00 As System.Windows.Forms.Button
+    Friend WithEvents Button12 As System.Windows.Forms.Button
+    Friend WithEvents Button10 As System.Windows.Forms.Button
 
 End Class

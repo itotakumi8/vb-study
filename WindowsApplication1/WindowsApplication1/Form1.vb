@@ -117,6 +117,18 @@
         End If
         beforeIn = "0"
     End Sub
+    '00ボタンクリック処理
+    'Private Sub Button00_Click(sender As System.Object, e As System.EventArgs) Handles Button00.Click
+    '    If beforeIn >= "0" And beforeIn <= "9" Then
+    '        If TextBox.Text.Length < 9 Then
+    '            TextBox.Text &= "00"
+    '        End If
+    '    Else
+    '        TextBox.Text = "00"
+    '    End If
+    '    beforeIn = "0"
+    'End Sub
+
     '＋ボタンクリック処理
     Private Sub ButtonPlus_Click(sender As System.Object, e As System.EventArgs) Handles ButtonPlus.Click
         If beforeIn >= "0" And beforeIn <= "9" Then
