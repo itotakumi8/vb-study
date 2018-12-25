@@ -7,7 +7,7 @@
 
     '1ボタンクリック処理
     Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             ' 直前に押されたのが数字ボタンのとき、かつ9桁未満の数値が入力されているとき（&を付けて）直前の数字の桁数に加算
             If TextBox.Text.Length < 9 Then
                 TextBox.Text &= "1"
@@ -20,7 +20,7 @@
     End Sub
     '2ボタンクリック処理
     Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If TextBox.Text.Length < 9 Then
                 TextBox.Text &= "2"
             End If
@@ -31,7 +31,7 @@
     End Sub
     '3ボタンクリック処理
     Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If TextBox.Text.Length < 9 Then
                 TextBox.Text &= "3"
             End If
@@ -42,7 +42,7 @@
     End Sub
     '4ボタンクリック処理
     Private Sub Button4_Click(sender As System.Object, e As System.EventArgs) Handles Button4.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If TextBox.Text.Length < 9 Then
                 TextBox.Text &= "4"
             End If
@@ -53,7 +53,7 @@
     End Sub
     '5ボタンクリック処理
     Private Sub Button5_Click(sender As System.Object, e As System.EventArgs) Handles Button5.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If TextBox.Text.Length < 9 Then
                 TextBox.Text &= "5"
             End If
@@ -64,7 +64,7 @@
     End Sub
     '6ボタンクリック処理
     Private Sub Button6_Click(sender As System.Object, e As System.EventArgs) Handles Button6.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If TextBox.Text.Length < 9 Then
                 TextBox.Text &= "6"
             End If
@@ -75,7 +75,7 @@
     End Sub
     '7ボタンクリック処理
     Private Sub Button7_Click(sender As System.Object, e As System.EventArgs) Handles Button7.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If TextBox.Text.Length < 9 Then
                 TextBox.Text &= "7"
             End If
@@ -86,7 +86,7 @@
     End Sub
     '8ボタンクリック処理
     Private Sub Button8_Click(sender As System.Object, e As System.EventArgs) Handles Button8.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If TextBox.Text.Length < 9 Then
                 TextBox.Text &= "8"
             End If
@@ -97,7 +97,7 @@
     End Sub
     '9ボタンクリック処理
     Private Sub Button9_Click(sender As System.Object, e As System.EventArgs) Handles Button9.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If TextBox.Text.Length < 9 Then
                 TextBox.Text &= "9"
             End If
@@ -108,7 +108,7 @@
     End Sub
     '0ボタンクリック処理
     Private Sub Button0_Click(sender As System.Object, e As System.EventArgs) Handles Button0.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If TextBox.Text.Length < 9 Then
                 TextBox.Text &= "0"
             End If
@@ -118,20 +118,20 @@
         beforeIn = "0"
     End Sub
     '00ボタンクリック処理
-    'Private Sub Button00_Click(sender As System.Object, e As System.EventArgs) Handles Button00.Click
-    '    If beforeIn >= "0" And beforeIn <= "9" Then
-    '        If TextBox.Text.Length < 9 Then
-    '            TextBox.Text &= "00"
-    '        End If
-    '    Else
-    '        TextBox.Text = "00"
-    '    End If
-    '    beforeIn = "0"
-    'End Sub
+    Private Sub Button00_Click(sender As System.Object, e As System.EventArgs) Handles Button00.Click
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
+            If TextBox.Text.Length < 9 Then
+                TextBox.Text &= "00"
+            End If
+        Else
+            TextBox.Text = "00"
+        End If
+        beforeIn = "0"
+    End Sub
 
     '＋ボタンクリック処理
     Private Sub ButtonPlus_Click(sender As System.Object, e As System.EventArgs) Handles ButtonPlus.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If opt = "" Then
                 ans = CInt(TextBox.Text)
             ElseIf opt = "C" Then
@@ -147,7 +147,7 @@
     End Sub
     '-ボタンクリック処理
     Private Sub ButtonMinus_Click(sender As System.Object, e As System.EventArgs) Handles ButtonMinus.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If opt = "" Then
                 ans = CInt(TextBox.Text)
             ElseIf opt = "C" Then
@@ -163,7 +163,7 @@
     End Sub
     'xボタンクリック処理
     Private Sub ButtonX_Click(sender As System.Object, e As System.EventArgs) Handles ButtonX.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If opt = "" Then
                 ans = CInt(TextBox.Text)
             ElseIf opt = "C" Then
@@ -179,7 +179,7 @@
     End Sub
     '÷ボタンクリック処理
     Private Sub ButtonDivide_Click(sender As System.Object, e As System.EventArgs) Handles ButtonDivide.Click
-        If beforeIn >= "0" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             If opt = "" Then
                 ans = CInt(TextBox.Text)
             ElseIf opt = "C" Then
@@ -195,7 +195,7 @@
     End Sub
     '=ボタンクリック処理
     Private Sub ButtonEqual_Click(sender As System.Object, e As System.EventArgs) Handles ButtonEqual.Click
-        If beforeIn >= "1" And beforeIn <= "9" Then
+        If beforeIn >= "0" Or "00" And beforeIn <= "9" Then
             num = CInt(TextBox.Text)
         End If
         ' 演算子を判定して処理を振分
