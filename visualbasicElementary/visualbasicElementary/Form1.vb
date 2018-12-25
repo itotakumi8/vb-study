@@ -9,7 +9,7 @@
         e.Graphics.DrawLine(Pens.Red, 0, 0, 282, 260)
         e.Graphics.DrawLine(Pens.Blue, 0, 260, 280, 0)
         e.Graphics.DrawRectangle(pen1, 95, 85, 95, 85)          '四角形の線を描画する
-        e.Graphics.FillRectangle(y, 95, 85, 95, 85) '四角形に色を塗る
+        e.Graphics.FillRectangle(y, 95, 85, 95, 85)             '四角形に色を塗る
         e.Graphics.DrawEllipse(pen2, 95, 85, 95, 85)            '円形を描画
     End Sub
 

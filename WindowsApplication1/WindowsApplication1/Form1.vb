@@ -233,7 +233,7 @@
         End Select
         TextBox.Text = ans '答え(計算結果)
         beforeIn = "="
-        opt = "="
+        opt = ""
     End Sub
     'クリアボタンクリック処理
     Private Sub ButtonClear_Click(sender As System.Object, e As System.EventArgs) Handles ButtonClear.Click
