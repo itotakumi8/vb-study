@@ -15,6 +15,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ForLoop", "ForLoop\ForLoop.
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Motto", "Motto\Motto.vbproj", "{BF3E6244-202F-45D1-909B-6AE8D6515165}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Class", "Class\Class.vbproj", "{7DD6C943-D32D-4303-AE43-57F38A157BA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,12 @@ Global
 		{BF3E6244-202F-45D1-909B-6AE8D6515165}.Release|Any CPU.ActiveCfg = Release|x86
 		{BF3E6244-202F-45D1-909B-6AE8D6515165}.Release|x86.ActiveCfg = Release|x86
 		{BF3E6244-202F-45D1-909B-6AE8D6515165}.Release|x86.Build.0 = Release|x86
+		{7DD6C943-D32D-4303-AE43-57F38A157BA1}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7DD6C943-D32D-4303-AE43-57F38A157BA1}.Debug|x86.ActiveCfg = Debug|x86
+		{7DD6C943-D32D-4303-AE43-57F38A157BA1}.Debug|x86.Build.0 = Debug|x86
+		{7DD6C943-D32D-4303-AE43-57F38A157BA1}.Release|Any CPU.ActiveCfg = Release|x86
+		{7DD6C943-D32D-4303-AE43-57F38A157BA1}.Release|x86.ActiveCfg = Release|x86
+		{7DD6C943-D32D-4303-AE43-57F38A157BA1}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
