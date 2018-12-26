@@ -13,6 +13,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "if", "if\if.vbproj", "{03E6
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ForLoop", "ForLoop\ForLoop.vbproj", "{CB5ED14A-0C92-4F9D-933A-40E2F3A7F2D1}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Motto", "Motto\Motto.vbproj", "{BF3E6244-202F-45D1-909B-6AE8D6515165}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,12 @@ Global
 		{CB5ED14A-0C92-4F9D-933A-40E2F3A7F2D1}.Release|Any CPU.ActiveCfg = Release|x86
 		{CB5ED14A-0C92-4F9D-933A-40E2F3A7F2D1}.Release|x86.ActiveCfg = Release|x86
 		{CB5ED14A-0C92-4F9D-933A-40E2F3A7F2D1}.Release|x86.Build.0 = Release|x86
+		{BF3E6244-202F-45D1-909B-6AE8D6515165}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BF3E6244-202F-45D1-909B-6AE8D6515165}.Debug|x86.ActiveCfg = Debug|x86
+		{BF3E6244-202F-45D1-909B-6AE8D6515165}.Debug|x86.Build.0 = Debug|x86
+		{BF3E6244-202F-45D1-909B-6AE8D6515165}.Release|Any CPU.ActiveCfg = Release|x86
+		{BF3E6244-202F-45D1-909B-6AE8D6515165}.Release|x86.ActiveCfg = Release|x86
+		{BF3E6244-202F-45D1-909B-6AE8D6515165}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
