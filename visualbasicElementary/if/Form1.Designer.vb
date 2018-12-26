@@ -28,6 +28,15 @@ Partial Class Form1
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button5 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Button6 = New System.Windows.Forms.Button()
+        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -81,11 +90,99 @@ Partial Class Form1
         Me.Button3.Text = "ランダム"
         Me.Button3.UseVisualStyleBackColor = True
         '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(6, 162)
+        Me.TextBox3.Multiline = True
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(55, 20)
+        Me.TextBox3.TabIndex = 6
+        '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(6, 188)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(87, 21)
+        Me.Button4.TabIndex = 7
+        Me.Button4.Text = "message"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(67, 166)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(17, 12)
+        Me.Label2.TabIndex = 8
+        Me.Label2.Text = "日"
+        '
+        'Button5
+        '
+        Me.Button5.Location = New System.Drawing.Point(6, 215)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(87, 21)
+        Me.Button5.TabIndex = 9
+        Me.Button5.Text = "today"
+        Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(225, 67)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(53, 12)
+        Me.Label3.TabIndex = 10
+        Me.Label3.Text = "練習問題"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(190, 82)
+        Me.TextBox4.Multiline = True
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(88, 20)
+        Me.TextBox4.TabIndex = 11
+        '
+        'Button6
+        '
+        Me.Button6.Location = New System.Drawing.Point(190, 106)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(88, 23)
+        Me.Button6.TabIndex = 12
+        Me.Button6.Text = "入力？"
+        Me.Button6.UseVisualStyleBackColor = True
+        '
+        'Button7
+        '
+        Me.Button7.Location = New System.Drawing.Point(190, 133)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(88, 23)
+        Me.Button7.TabIndex = 13
+        Me.Button7.Text = "カンマ？"
+        Me.Button7.UseVisualStyleBackColor = True
+        '
+        'Button8
+        '
+        Me.Button8.Location = New System.Drawing.Point(190, 159)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(88, 23)
+        Me.Button8.TabIndex = 14
+        Me.Button8.Text = "割り切れる？"
+        Me.Button8.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.Button8)
+        Me.Controls.Add(Me.Button7)
+        Me.Controls.Add(Me.Button6)
+        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Button5)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox2)
@@ -104,5 +201,14 @@ Partial Class Form1
     Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Button5 As System.Windows.Forms.Button
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents Button6 As System.Windows.Forms.Button
+    Friend WithEvents Button7 As System.Windows.Forms.Button
+    Friend WithEvents Button8 As System.Windows.Forms.Button
 
 End Class
