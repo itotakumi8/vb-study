@@ -7,4 +7,9 @@ Public Class Form1
         MsgBox(Math.PI)
         MsgBox(fileInfoUse.Length())
     End Sub
+
+    Private Sub Form1_MouseMove(sender As Object, e As System.Windows.Forms.MouseEventArgs) Handles Me.MouseMove
+        Dim G As Graphics = sender.CreateGraphics() 'Fillellipseは非共有メンバーであり、Graphicsのインスタンスである
+        G.FillEllipse(Brushes.Red, e.X, e.Y, 10, 10) 'RedはBrushesの共有メンバーである（インスタンスは作成される）
+    End Sub
 End Class
