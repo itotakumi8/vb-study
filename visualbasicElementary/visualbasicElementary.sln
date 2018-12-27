@@ -25,6 +25,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Error", "Error\Error.vbproj
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "other", "other\other.vbproj", "{832F34CC-DF91-46F1-BE65-276AA82AAB2D}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "chinchirorin", "chinchirorin\chinchirorin.vbproj", "{911168A9-7DA2-4F98-8902-6A236A4AAE40}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ClassMake", "ClassMake\ClassMake.vbproj", "{CE591FC0-3B05-441F-A54D-04F41E7F879D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,18 @@ Global
 		{832F34CC-DF91-46F1-BE65-276AA82AAB2D}.Release|Any CPU.ActiveCfg = Release|x86
 		{832F34CC-DF91-46F1-BE65-276AA82AAB2D}.Release|x86.ActiveCfg = Release|x86
 		{832F34CC-DF91-46F1-BE65-276AA82AAB2D}.Release|x86.Build.0 = Release|x86
+		{911168A9-7DA2-4F98-8902-6A236A4AAE40}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{911168A9-7DA2-4F98-8902-6A236A4AAE40}.Debug|x86.ActiveCfg = Debug|x86
+		{911168A9-7DA2-4F98-8902-6A236A4AAE40}.Debug|x86.Build.0 = Debug|x86
+		{911168A9-7DA2-4F98-8902-6A236A4AAE40}.Release|Any CPU.ActiveCfg = Release|x86
+		{911168A9-7DA2-4F98-8902-6A236A4AAE40}.Release|x86.ActiveCfg = Release|x86
+		{911168A9-7DA2-4F98-8902-6A236A4AAE40}.Release|x86.Build.0 = Release|x86
+		{CE591FC0-3B05-441F-A54D-04F41E7F879D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{CE591FC0-3B05-441F-A54D-04F41E7F879D}.Debug|x86.ActiveCfg = Debug|x86
+		{CE591FC0-3B05-441F-A54D-04F41E7F879D}.Debug|x86.Build.0 = Debug|x86
+		{CE591FC0-3B05-441F-A54D-04F41E7F879D}.Release|Any CPU.ActiveCfg = Release|x86
+		{CE591FC0-3B05-441F-A54D-04F41E7F879D}.Release|x86.ActiveCfg = Release|x86
+		{CE591FC0-3B05-441F-A54D-04F41E7F879D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
