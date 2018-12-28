@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' アセンブリ属性の値を確認します。
 
-<Assembly: AssemblyTitle("ClassOsero")> 
+<Assembly: AssemblyTitle("ClassOthello")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("ClassOsero")> 
+<Assembly: AssemblyProduct("ClassOthello")> 
 <Assembly: AssemblyCopyright("Copyright ©  2018")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
 'このプロジェクトが COM に公開される場合、次の GUID がタイプ ライブラリの ID になります。
-<Assembly: Guid("80b552a1-d4c5-4e03-93e6-f1b621625f20")> 
+<Assembly: Guid("45360d3c-f8c6-4679-9eb1-103d5e43ddee")> 
 
 ' アセンブリのバージョン情報は、以下の 4 つの値で構成されています:
 '

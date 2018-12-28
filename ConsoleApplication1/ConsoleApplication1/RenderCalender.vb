@@ -3,7 +3,7 @@
     Sub Main()
 
         For i = 1 To 12
-            Dim firstDayOfMonth As MyDate = New MyDate(2009, i, 1)
+            Dim firstDayOfMonth As MyDate = New MyDate(2010, i, 1)
             Console.WriteLine(firstDayOfMonth.Year & "年")
             Console.WriteLine(firstDayOfMonth.Month & "月")
             RenderCalender(firstDayOfMonth.DayOfWeek, Date.DaysInMonth(firstDayOfMonth.Year, firstDayOfMonth.Month))

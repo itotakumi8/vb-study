@@ -6,11 +6,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3D64656F-C4EA-42E0-B160-B7A4DA488456}</ProjectGuid>
+    <ProjectGuid>{359BB682-9536-4745-A9E8-8690C639D075}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>ClassOsero.My.MyApplication</StartupObject>
-    <RootNamespace>ClassOsero</RootNamespace>
-    <AssemblyName>ClassOsero</AssemblyName>
+    <StartupObject>ClassOthello.My.MyApplication</StartupObject>
+    <RootNamespace>ClassOthello</RootNamespace>
+    <AssemblyName>ClassOthello</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
@@ -23,7 +23,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>ClassOsero.xml</DocumentationFile>
+    <DocumentationFile>ClassOthello.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
@@ -33,7 +33,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>ClassOsero.xml</DocumentationFile>
+    <DocumentationFile>ClassOthello.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -72,6 +72,7 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="computer.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
