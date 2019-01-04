@@ -6,7 +6,7 @@
         Console.WriteLine("入力値:" + inputText)
 
         Dim inputBytes As Byte() = System.Text.Encoding.UTF8.GetBytes(inputText) 'inputTextを8桁の2進数に変換する
-        Dim inputNumber As Double = 0.0
+        Dim inputNumber As Byte = 0.0
 
         For i = 0 To inputBytes.Length - 1
             If inputBytes(i) <= 47 And inputBytes(i) > 57 Then
