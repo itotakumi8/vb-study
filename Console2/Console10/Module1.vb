@@ -5,8 +5,16 @@
         Dim inputText As String = Console.ReadLine()
         Console.WriteLine("入力値:" + inputText)
 
-        Dim inputByte As Byte() = System.Text.Encoding.UTF8.GetBytes(inputText)
-        Dim inputNumber As Byte = 0.0
+        Dim inputBytes As Byte() = System.Text.Encoding.UTF8.GetBytes(inputText) 'inputTextを8桁の2進数に変換する
+        Dim inputNumber As Double = 0.0
 
+        For i = 0 To inputBytes.Length - 1
+            If inputBytes(i) <= 47 And inputBytes(i) > 57 Then
+                Console.WriteLine("変換できません")
+            Else
+                inputNumber += (inputBytes(i) - 48) * Math.Pow(10, inputBytes.Length - 1 - i)
+            End if
+        Next
+        Console.WriteLine("変換値:" + inputNumber)
     End Sub
 End Module
