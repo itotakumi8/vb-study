@@ -1,0 +1,1 @@
+MsgBox(Date&vbCr&Time)

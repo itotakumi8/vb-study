@@ -1,0 +1,1 @@
+Msgbox(ScriptEngineMajorVersion & "." & ScriptEngineMinorVersion)
