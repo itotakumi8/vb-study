@@ -9,12 +9,13 @@
         Dim inputNumber As Byte = 0.0
 
         For i = 0 To inputBytes.Length - 1
-            If inputBytes(i) <= 47 And inputBytes(i) > 57 Then
+            If inputBytes(i) <= 47 Or inputBytes(i) > 57 Then
                 Console.WriteLine("変換できません")
             Else
                 inputNumber += (inputBytes(i) - 48) * Math.Pow(10, inputBytes.Length - 1 - i)
-            End if
+            End If
         Next
-        Console.WriteLine("変換値:" + inputNumber)
+        Console.WriteLine("変換値:" & inputNumber)
+        Console.ReadLine()
     End Sub
 End Module
